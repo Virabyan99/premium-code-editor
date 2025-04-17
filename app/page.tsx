@@ -1,9 +1,11 @@
-// app/page.tsx
+import { Editor } from '@/components/Editor';
+import { ConsoleOutput } from '@/components/ConsoleOutput';
+
 export default function Home() {
   return (
     <>
-      <div className="p-4">Editor Placeholder</div>
-      <div className="p-4">Console Placeholder</div>
+      <Editor />
+      <ConsoleOutput />
     </>
   );
 }
